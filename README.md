@@ -9,20 +9,20 @@ Tugas ini adalah chatbot sederhana dengan kemampuan menyimpan memori percakapan 
 Berikut struktur proyek untuk membantu Anda memahami komponen di dalamnya:
 
 ```
-    ├── chatbot_memory.db # Database SQLite untuk menyimpan riwayat percakapan
-    ├── datasets #Folder berisi model, intents, dan data kelas
-    │   ├── chatbot_model.h5 # Model machine learning chatbot dalam format H5
-    │   ├── classes.pkl # File penyimpanan kelas intents
-    │   ├── intents.json # Dataset intents yang digunakan chatbot
-    │   └── words.pkl # File penyimpanan kata unik yang diproses
-    ├── index.py # Script utama untuk menjalankan aplikasi Flask
-    ├── main.ipynb # Notebook Jupyter untuk eksplorasi dan pelatihan model
-    ├── README.md  # Dokumentasi proyek
-    ├── static
-    │   └── styles.css #CSS untuk user interface web
-    └── templates
-        ├── index.html  # Halaman utama interaksi chatbot
-        └── view_history.html  # Halaman untuk menampilkan riwayat percakapan
+├── chatbot_memory.db # Database SQLite untuk menyimpan riwayat percakapan
+├── datasets #Folder berisi model, intents, dan data kelas
+│   ├── chatbot_model.h5 # Model machine learning chatbot dalam format H5
+│   ├── classes.pkl # File penyimpanan kelas intents
+│   ├── intents.json # Dataset intents yang digunakan chatbot
+│   └── words.pkl # File penyimpanan kata unik yang diproses
+├── index.py # Script utama untuk menjalankan aplikasi Flask
+├── main.ipynb # Notebook Jupyter untuk eksplorasi dan pelatihan model
+├── README.md  # Dokumentasi proyek
+├── static
+│   └── styles.css #CSS untuk user interface web
+└── templates
+    ├── index.html  # Halaman utama interaksi chatbot
+    └── view_history.html  # Halaman untuk menampilkan riwayat percakapan
 ```
 
 ## Fitur Utama
